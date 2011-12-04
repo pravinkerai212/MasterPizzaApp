@@ -1,0 +1,489 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		70291D52148B24D00025BB60 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70291D51148B24D00025BB60 /* UIKit.framework */; };
+		70291D54148B24D00025BB60 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70291D53148B24D00025BB60 /* Foundation.framework */; };
+		70291D56148B24D00025BB60 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70291D55148B24D00025BB60 /* CoreGraphics.framework */; };
+		70291D5C148B24D00025BB60 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 70291D5A148B24D00025BB60 /* InfoPlist.strings */; };
+		70291D5E148B24D00025BB60 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 70291D5D148B24D00025BB60 /* main.m */; };
+		70291D62148B24D00025BB60 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 70291D61148B24D00025BB60 /* AppDelegate.m */; };
+		70291D65148B24D00025BB60 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70291D64148B24D00025BB60 /* MasterViewController.m */; };
+		70291D68148B24D00025BB60 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70291D67148B24D00025BB60 /* DetailViewController.m */; };
+		70291D6B148B24D00025BB60 /* MasterViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 70291D69148B24D00025BB60 /* MasterViewController_iPhone.xib */; };
+		70291D6E148B24D00025BB60 /* MasterViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 70291D6C148B24D00025BB60 /* MasterViewController_iPad.xib */; };
+		70291D71148B24D00025BB60 /* DetailViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 70291D6F148B24D00025BB60 /* DetailViewController_iPhone.xib */; };
+		70291D74148B24D00025BB60 /* DetailViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 70291D72148B24D00025BB60 /* DetailViewController_iPad.xib */; };
+		70291D7C148B24D00025BB60 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70291D7B148B24D00025BB60 /* SenTestingKit.framework */; };
+		70291D7D148B24D00025BB60 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70291D51148B24D00025BB60 /* UIKit.framework */; };
+		70291D7E148B24D00025BB60 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70291D53148B24D00025BB60 /* Foundation.framework */; };
+		70291D86148B24D00025BB60 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 70291D84148B24D00025BB60 /* InfoPlist.strings */; };
+		70291D89148B24D00025BB60 /* MasterPizzaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 70291D88148B24D00025BB60 /* MasterPizzaTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		70291D7F148B24D00025BB60 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 70291D44148B24D00025BB60 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 70291D4C148B24D00025BB60;
+			remoteInfo = MasterPizza;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		70291D4D148B24D00025BB60 /* MasterPizza.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MasterPizza.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		70291D51148B24D00025BB60 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		70291D53148B24D00025BB60 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		70291D55148B24D00025BB60 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		70291D59148B24D00025BB60 /* MasterPizza-Info.plist */ = {isa = PBXFileReference; path = "MasterPizza-Info.plist"; sourceTree = "<group>"; };
+		70291D5B148B24D00025BB60 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		70291D5D148B24D00025BB60 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		70291D5F148B24D00025BB60 /* MasterPizza-Prefix.pch */ = {isa = PBXFileReference; path = "MasterPizza-Prefix.pch"; sourceTree = "<group>"; };
+		70291D60148B24D00025BB60 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		70291D61148B24D00025BB60 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		70291D63148B24D00025BB60 /* MasterViewController.h */ = {isa = PBXFileReference; path = MasterViewController.h; sourceTree = "<group>"; };
+		70291D64148B24D00025BB60 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		70291D66148B24D00025BB60 /* DetailViewController.h */ = {isa = PBXFileReference; path = DetailViewController.h; sourceTree = "<group>"; };
+		70291D67148B24D00025BB60 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		70291D6A148B24D00025BB60 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MasterViewController_iPhone.xib; sourceTree = "<group>"; };
+		70291D6D148B24D00025BB60 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MasterViewController_iPad.xib; sourceTree = "<group>"; };
+		70291D70148B24D00025BB60 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DetailViewController_iPhone.xib; sourceTree = "<group>"; };
+		70291D73148B24D00025BB60 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DetailViewController_iPad.xib; sourceTree = "<group>"; };
+		70291D7A148B24D00025BB60 /* MasterPizzaTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MasterPizzaTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		70291D7B148B24D00025BB60 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		70291D83148B24D00025BB60 /* MasterPizzaTests-Info.plist */ = {isa = PBXFileReference; path = "MasterPizzaTests-Info.plist"; sourceTree = "<group>"; };
+		70291D85148B24D00025BB60 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		70291D87148B24D00025BB60 /* MasterPizzaTests.h */ = {isa = PBXFileReference; path = MasterPizzaTests.h; sourceTree = "<group>"; };
+		70291D88148B24D00025BB60 /* MasterPizzaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterPizzaTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		70291D4A148B24D00025BB60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70291D52148B24D00025BB60 /* UIKit.framework in Frameworks */,
+				70291D54148B24D00025BB60 /* Foundation.framework in Frameworks */,
+				70291D56148B24D00025BB60 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70291D76148B24D00025BB60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70291D7C148B24D00025BB60 /* SenTestingKit.framework in Frameworks */,
+				70291D7D148B24D00025BB60 /* UIKit.framework in Frameworks */,
+				70291D7E148B24D00025BB60 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		70291D42148B24D00025BB60 = {
+			isa = PBXGroup;
+			children = (
+				70291D57148B24D00025BB60 /* MasterPizza */,
+				70291D81148B24D00025BB60 /* MasterPizzaTests */,
+				70291D50148B24D00025BB60 /* Frameworks */,
+				70291D4E148B24D00025BB60 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		70291D4E148B24D00025BB60 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				70291D4D148B24D00025BB60 /* MasterPizza.app */,
+				70291D7A148B24D00025BB60 /* MasterPizzaTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		70291D50148B24D00025BB60 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				70291D51148B24D00025BB60 /* UIKit.framework */,
+				70291D53148B24D00025BB60 /* Foundation.framework */,
+				70291D55148B24D00025BB60 /* CoreGraphics.framework */,
+				70291D7B148B24D00025BB60 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		70291D57148B24D00025BB60 /* MasterPizza */ = {
+			isa = PBXGroup;
+			children = (
+				70291D60148B24D00025BB60 /* AppDelegate.h */,
+				70291D61148B24D00025BB60 /* AppDelegate.m */,
+				70291D63148B24D00025BB60 /* MasterViewController.h */,
+				70291D64148B24D00025BB60 /* MasterViewController.m */,
+				70291D66148B24D00025BB60 /* DetailViewController.h */,
+				70291D67148B24D00025BB60 /* DetailViewController.m */,
+				70291D69148B24D00025BB60 /* MasterViewController_iPhone.xib */,
+				70291D6C148B24D00025BB60 /* MasterViewController_iPad.xib */,
+				70291D6F148B24D00025BB60 /* DetailViewController_iPhone.xib */,
+				70291D72148B24D00025BB60 /* DetailViewController_iPad.xib */,
+				70291D58148B24D00025BB60 /* Supporting Files */,
+			);
+			path = MasterPizza;
+			sourceTree = "<group>";
+		};
+		70291D58148B24D00025BB60 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				70291D59148B24D00025BB60 /* MasterPizza-Info.plist */,
+				70291D5A148B24D00025BB60 /* InfoPlist.strings */,
+				70291D5D148B24D00025BB60 /* main.m */,
+				70291D5F148B24D00025BB60 /* MasterPizza-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		70291D81148B24D00025BB60 /* MasterPizzaTests */ = {
+			isa = PBXGroup;
+			children = (
+				70291D87148B24D00025BB60 /* MasterPizzaTests.h */,
+				70291D88148B24D00025BB60 /* MasterPizzaTests.m */,
+				70291D82148B24D00025BB60 /* Supporting Files */,
+			);
+			path = MasterPizzaTests;
+			sourceTree = "<group>";
+		};
+		70291D82148B24D00025BB60 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				70291D83148B24D00025BB60 /* MasterPizzaTests-Info.plist */,
+				70291D84148B24D00025BB60 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		70291D4C148B24D00025BB60 /* MasterPizza */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70291D8C148B24D00025BB60 /* Build configuration list for PBXNativeTarget "MasterPizza" */;
+			buildPhases = (
+				70291D49148B24D00025BB60 /* Sources */,
+				70291D4A148B24D00025BB60 /* Frameworks */,
+				70291D4B148B24D00025BB60 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MasterPizza;
+			productName = MasterPizza;
+			productReference = 70291D4D148B24D00025BB60 /* MasterPizza.app */;
+			productType = "com.apple.product-type.application";
+		};
+		70291D79148B24D00025BB60 /* MasterPizzaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70291D8F148B24D00025BB60 /* Build configuration list for PBXNativeTarget "MasterPizzaTests" */;
+			buildPhases = (
+				70291D75148B24D00025BB60 /* Sources */,
+				70291D76148B24D00025BB60 /* Frameworks */,
+				70291D77148B24D00025BB60 /* Resources */,
+				70291D78148B24D00025BB60 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				70291D80148B24D00025BB60 /* PBXTargetDependency */,
+			);
+			name = MasterPizzaTests;
+			productName = MasterPizzaTests;
+			productReference = 70291D7A148B24D00025BB60 /* MasterPizzaTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		70291D44148B24D00025BB60 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Progressive Insurance";
+			};
+			buildConfigurationList = 70291D47148B24D00025BB60 /* Build configuration list for PBXProject "MasterPizza" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 70291D42148B24D00025BB60;
+			productRefGroup = 70291D4E148B24D00025BB60 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				70291D4C148B24D00025BB60 /* MasterPizza */,
+				70291D79148B24D00025BB60 /* MasterPizzaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		70291D4B148B24D00025BB60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70291D5C148B24D00025BB60 /* InfoPlist.strings in Resources */,
+				70291D6B148B24D00025BB60 /* MasterViewController_iPhone.xib in Resources */,
+				70291D6E148B24D00025BB60 /* MasterViewController_iPad.xib in Resources */,
+				70291D71148B24D00025BB60 /* DetailViewController_iPhone.xib in Resources */,
+				70291D74148B24D00025BB60 /* DetailViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70291D77148B24D00025BB60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70291D86148B24D00025BB60 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		70291D78148B24D00025BB60 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		70291D49148B24D00025BB60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70291D5E148B24D00025BB60 /* main.m in Sources */,
+				70291D62148B24D00025BB60 /* AppDelegate.m in Sources */,
+				70291D65148B24D00025BB60 /* MasterViewController.m in Sources */,
+				70291D68148B24D00025BB60 /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70291D75148B24D00025BB60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70291D89148B24D00025BB60 /* MasterPizzaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		70291D80148B24D00025BB60 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 70291D4C148B24D00025BB60 /* MasterPizza */;
+			targetProxy = 70291D7F148B24D00025BB60 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		70291D5A148B24D00025BB60 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				70291D5B148B24D00025BB60 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		70291D69148B24D00025BB60 /* MasterViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				70291D6A148B24D00025BB60 /* en */,
+			);
+			name = MasterViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		70291D6C148B24D00025BB60 /* MasterViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				70291D6D148B24D00025BB60 /* en */,
+			);
+			name = MasterViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+		70291D6F148B24D00025BB60 /* DetailViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				70291D70148B24D00025BB60 /* en */,
+			);
+			name = DetailViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		70291D72148B24D00025BB60 /* DetailViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				70291D73148B24D00025BB60 /* en */,
+			);
+			name = DetailViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+		70291D84148B24D00025BB60 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				70291D85148B24D00025BB60 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		70291D8A148B24D00025BB60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		70291D8B148B24D00025BB60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		70291D8D148B24D00025BB60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MasterPizza/MasterPizza-Prefix.pch";
+				INFOPLIST_FILE = "MasterPizza/MasterPizza-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		70291D8E148B24D00025BB60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MasterPizza/MasterPizza-Prefix.pch";
+				INFOPLIST_FILE = "MasterPizza/MasterPizza-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		70291D90148B24D00025BB60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MasterPizza.app/MasterPizza";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MasterPizza/MasterPizza-Prefix.pch";
+				INFOPLIST_FILE = "MasterPizzaTests/MasterPizzaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		70291D91148B24D00025BB60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MasterPizza.app/MasterPizza";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MasterPizza/MasterPizza-Prefix.pch";
+				INFOPLIST_FILE = "MasterPizzaTests/MasterPizzaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		70291D47148B24D00025BB60 /* Build configuration list for PBXProject "MasterPizza" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70291D8A148B24D00025BB60 /* Debug */,
+				70291D8B148B24D00025BB60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70291D8C148B24D00025BB60 /* Build configuration list for PBXNativeTarget "MasterPizza" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70291D8D148B24D00025BB60 /* Debug */,
+				70291D8E148B24D00025BB60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		70291D8F148B24D00025BB60 /* Build configuration list for PBXNativeTarget "MasterPizzaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70291D90148B24D00025BB60 /* Debug */,
+				70291D91148B24D00025BB60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 70291D44148B24D00025BB60 /* Project object */;
+}

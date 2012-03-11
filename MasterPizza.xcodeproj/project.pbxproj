@@ -12,9 +12,6 @@
 		70291D56148B24D00025BB60 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70291D55148B24D00025BB60 /* CoreGraphics.framework */; };
 		70291D5C148B24D00025BB60 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 70291D5A148B24D00025BB60 /* InfoPlist.strings */; };
 		70291D5E148B24D00025BB60 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 70291D5D148B24D00025BB60 /* main.m */; };
-		70291D62148B24D00025BB60 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 70291D61148B24D00025BB60 /* AppDelegate.m */; };
-		70291D65148B24D00025BB60 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70291D64148B24D00025BB60 /* MasterViewController.m */; };
-		70291D68148B24D00025BB60 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70291D67148B24D00025BB60 /* DetailViewController.m */; };
 		70291D6B148B24D00025BB60 /* MasterViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 70291D69148B24D00025BB60 /* MasterViewController_iPhone.xib */; };
 		70291D6E148B24D00025BB60 /* MasterViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 70291D6C148B24D00025BB60 /* MasterViewController_iPad.xib */; };
 		70291D71148B24D00025BB60 /* DetailViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 70291D6F148B24D00025BB60 /* DetailViewController_iPhone.xib */; };
@@ -24,6 +21,20 @@
 		70291D7E148B24D00025BB60 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70291D53148B24D00025BB60 /* Foundation.framework */; };
 		70291D86148B24D00025BB60 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 70291D84148B24D00025BB60 /* InfoPlist.strings */; };
 		70291D89148B24D00025BB60 /* MasterPizzaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 70291D88148B24D00025BB60 /* MasterPizzaTests.m */; };
+		70291D97148B28B00025BB60 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 70291D96148B28B00025BB60 /* icon.png */; };
+		70C29B3D150C53B300B06101 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 70C29B32150C53B300B06101 /* AppDelegate.m */; };
+		70C29B3E150C53B300B06101 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70C29B34150C53B300B06101 /* DetailViewController.m */; };
+		70C29B3F150C53B300B06101 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70C29B36150C53B300B06101 /* HomeViewController.m */; };
+		70C29B40150C53B300B06101 /* InfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70C29B38150C53B300B06101 /* InfoViewController.m */; };
+		70C29B41150C53B300B06101 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70C29B3A150C53B300B06101 /* MasterViewController.m */; };
+		70C29B42150C53B300B06101 /* MenuSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 70C29B3C150C53B300B06101 /* MenuSection.m */; };
+		70C29B45150C53C200B06101 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 70C29B43150C53C200B06101 /* HomeViewController.xib */; };
+		70C29B46150C53C200B06101 /* InfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 70C29B44150C53C200B06101 /* InfoViewController.xib */; };
+		70C29B4B150C541900B06101 /* home_background.png in Resources */ = {isa = PBXBuildFile; fileRef = 70C29B49150C541900B06101 /* home_background.png */; };
+		70C29B4C150C541900B06101 /* home_background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 70C29B4A150C541900B06101 /* home_background@2x.png */; };
+		70DBA120150C57BC003E6DB8 /* OrderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70DBA11F150C57BC003E6DB8 /* OrderViewController.m */; };
+		70DBA123150C5985003E6DB8 /* OrderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 70DBA122150C5985003E6DB8 /* OrderViewController.xib */; };
+		70F0698D148C33C400EBBA22 /* menu.plist in Resources */ = {isa = PBXBuildFile; fileRef = 70F0698C148C33C400EBBA22 /* menu.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,26 +52,41 @@
 		70291D51148B24D00025BB60 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		70291D53148B24D00025BB60 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		70291D55148B24D00025BB60 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		70291D59148B24D00025BB60 /* MasterPizza-Info.plist */ = {isa = PBXFileReference; path = "MasterPizza-Info.plist"; sourceTree = "<group>"; };
+		70291D59148B24D00025BB60 /* MasterPizza-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MasterPizza-Info.plist"; sourceTree = "<group>"; };
 		70291D5B148B24D00025BB60 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		70291D5D148B24D00025BB60 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		70291D5F148B24D00025BB60 /* MasterPizza-Prefix.pch */ = {isa = PBXFileReference; path = "MasterPizza-Prefix.pch"; sourceTree = "<group>"; };
-		70291D60148B24D00025BB60 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
-		70291D61148B24D00025BB60 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		70291D63148B24D00025BB60 /* MasterViewController.h */ = {isa = PBXFileReference; path = MasterViewController.h; sourceTree = "<group>"; };
-		70291D64148B24D00025BB60 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
-		70291D66148B24D00025BB60 /* DetailViewController.h */ = {isa = PBXFileReference; path = DetailViewController.h; sourceTree = "<group>"; };
-		70291D67148B24D00025BB60 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		70291D5F148B24D00025BB60 /* MasterPizza-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MasterPizza-Prefix.pch"; sourceTree = "<group>"; };
 		70291D6A148B24D00025BB60 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MasterViewController_iPhone.xib; sourceTree = "<group>"; };
 		70291D6D148B24D00025BB60 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MasterViewController_iPad.xib; sourceTree = "<group>"; };
 		70291D70148B24D00025BB60 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DetailViewController_iPhone.xib; sourceTree = "<group>"; };
 		70291D73148B24D00025BB60 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DetailViewController_iPad.xib; sourceTree = "<group>"; };
 		70291D7A148B24D00025BB60 /* MasterPizzaTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MasterPizzaTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		70291D7B148B24D00025BB60 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		70291D83148B24D00025BB60 /* MasterPizzaTests-Info.plist */ = {isa = PBXFileReference; path = "MasterPizzaTests-Info.plist"; sourceTree = "<group>"; };
+		70291D83148B24D00025BB60 /* MasterPizzaTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MasterPizzaTests-Info.plist"; sourceTree = "<group>"; };
 		70291D85148B24D00025BB60 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		70291D87148B24D00025BB60 /* MasterPizzaTests.h */ = {isa = PBXFileReference; path = MasterPizzaTests.h; sourceTree = "<group>"; };
+		70291D87148B24D00025BB60 /* MasterPizzaTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterPizzaTests.h; sourceTree = "<group>"; };
 		70291D88148B24D00025BB60 /* MasterPizzaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterPizzaTests.m; sourceTree = "<group>"; };
+		70291D96148B28B00025BB60 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		70C29B31150C53B300B06101 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Classes/AppDelegate.h; sourceTree = "<group>"; };
+		70C29B32150C53B300B06101 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Classes/AppDelegate.m; sourceTree = "<group>"; };
+		70C29B33150C53B300B06101 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DetailViewController.h; path = Classes/DetailViewController.h; sourceTree = "<group>"; };
+		70C29B34150C53B300B06101 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DetailViewController.m; path = Classes/DetailViewController.m; sourceTree = "<group>"; };
+		70C29B35150C53B300B06101 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomeViewController.h; path = Classes/HomeViewController.h; sourceTree = "<group>"; };
+		70C29B36150C53B300B06101 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HomeViewController.m; path = Classes/HomeViewController.m; sourceTree = "<group>"; };
+		70C29B37150C53B300B06101 /* InfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InfoViewController.h; path = Classes/InfoViewController.h; sourceTree = "<group>"; };
+		70C29B38150C53B300B06101 /* InfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InfoViewController.m; path = Classes/InfoViewController.m; sourceTree = "<group>"; };
+		70C29B39150C53B300B06101 /* MasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MasterViewController.h; path = Classes/MasterViewController.h; sourceTree = "<group>"; };
+		70C29B3A150C53B300B06101 /* MasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MasterViewController.m; path = Classes/MasterViewController.m; sourceTree = "<group>"; };
+		70C29B3B150C53B300B06101 /* MenuSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MenuSection.h; path = Classes/MenuSection.h; sourceTree = "<group>"; };
+		70C29B3C150C53B300B06101 /* MenuSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MenuSection.m; path = Classes/MenuSection.m; sourceTree = "<group>"; };
+		70C29B43150C53C200B06101 /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = HomeViewController.xib; path = Resources/XIBs/HomeViewController.xib; sourceTree = "<group>"; };
+		70C29B44150C53C200B06101 /* InfoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = InfoViewController.xib; path = Resources/XIBs/InfoViewController.xib; sourceTree = "<group>"; };
+		70C29B49150C541900B06101 /* home_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = home_background.png; path = Resources/Graphics/home_background.png; sourceTree = "<group>"; };
+		70C29B4A150C541900B06101 /* home_background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "home_background@2x.png"; path = "Resources/Graphics/home_background@2x.png"; sourceTree = "<group>"; };
+		70DBA11E150C57BC003E6DB8 /* OrderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OrderViewController.h; path = Classes/OrderViewController.h; sourceTree = "<group>"; };
+		70DBA11F150C57BC003E6DB8 /* OrderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OrderViewController.m; path = Classes/OrderViewController.m; sourceTree = "<group>"; };
+		70DBA122150C5985003E6DB8 /* OrderViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = OrderViewController.xib; path = Resources/XIBs/OrderViewController.xib; sourceTree = "<group>"; };
+		70F0698C148C33C400EBBA22 /* menu.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = menu.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +116,7 @@
 		70291D42148B24D00025BB60 = {
 			isa = PBXGroup;
 			children = (
+				70291D96148B28B00025BB60 /* icon.png */,
 				70291D57148B24D00025BB60 /* MasterPizza */,
 				70291D81148B24D00025BB60 /* MasterPizzaTests */,
 				70291D50148B24D00025BB60 /* Frameworks */,
@@ -120,16 +147,8 @@
 		70291D57148B24D00025BB60 /* MasterPizza */ = {
 			isa = PBXGroup;
 			children = (
-				70291D60148B24D00025BB60 /* AppDelegate.h */,
-				70291D61148B24D00025BB60 /* AppDelegate.m */,
-				70291D63148B24D00025BB60 /* MasterViewController.h */,
-				70291D64148B24D00025BB60 /* MasterViewController.m */,
-				70291D66148B24D00025BB60 /* DetailViewController.h */,
-				70291D67148B24D00025BB60 /* DetailViewController.m */,
-				70291D69148B24D00025BB60 /* MasterViewController_iPhone.xib */,
-				70291D6C148B24D00025BB60 /* MasterViewController_iPad.xib */,
-				70291D6F148B24D00025BB60 /* DetailViewController_iPhone.xib */,
-				70291D72148B24D00025BB60 /* DetailViewController_iPad.xib */,
+				70291D9E148B29C40025BB60 /* Classes */,
+				70C29B47150C53CC00B06101 /* Resources */,
 				70291D58148B24D00025BB60 /* Supporting Files */,
 			);
 			path = MasterPizza;
@@ -142,6 +161,7 @@
 				70291D5A148B24D00025BB60 /* InfoPlist.strings */,
 				70291D5D148B24D00025BB60 /* main.m */,
 				70291D5F148B24D00025BB60 /* MasterPizza-Prefix.pch */,
+				70F0698C148C33C400EBBA22 /* menu.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -163,6 +183,59 @@
 				70291D84148B24D00025BB60 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		70291D9E148B29C40025BB60 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				70C29B31150C53B300B06101 /* AppDelegate.h */,
+				70C29B32150C53B300B06101 /* AppDelegate.m */,
+				70C29B33150C53B300B06101 /* DetailViewController.h */,
+				70C29B34150C53B300B06101 /* DetailViewController.m */,
+				70C29B35150C53B300B06101 /* HomeViewController.h */,
+				70C29B36150C53B300B06101 /* HomeViewController.m */,
+				70C29B37150C53B300B06101 /* InfoViewController.h */,
+				70C29B38150C53B300B06101 /* InfoViewController.m */,
+				70C29B39150C53B300B06101 /* MasterViewController.h */,
+				70C29B3A150C53B300B06101 /* MasterViewController.m */,
+				70C29B3B150C53B300B06101 /* MenuSection.h */,
+				70C29B3C150C53B300B06101 /* MenuSection.m */,
+				70DBA11E150C57BC003E6DB8 /* OrderViewController.h */,
+				70DBA11F150C57BC003E6DB8 /* OrderViewController.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		70291D9F148B29CC0025BB60 /* XIBs */ = {
+			isa = PBXGroup;
+			children = (
+				70291D72148B24D00025BB60 /* DetailViewController_iPad.xib */,
+				70291D6F148B24D00025BB60 /* DetailViewController_iPhone.xib */,
+				70C29B43150C53C200B06101 /* HomeViewController.xib */,
+				70C29B44150C53C200B06101 /* InfoViewController.xib */,
+				70291D6C148B24D00025BB60 /* MasterViewController_iPad.xib */,
+				70291D69148B24D00025BB60 /* MasterViewController_iPhone.xib */,
+				70DBA122150C5985003E6DB8 /* OrderViewController.xib */,
+			);
+			name = XIBs;
+			sourceTree = "<group>";
+		};
+		70C29B47150C53CC00B06101 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				70C29B48150C53E700B06101 /* Graphics */,
+				70291D9F148B29CC0025BB60 /* XIBs */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		70C29B48150C53E700B06101 /* Graphics */ = {
+			isa = PBXGroup;
+			children = (
+				70C29B49150C541900B06101 /* home_background.png */,
+				70C29B4A150C541900B06101 /* home_background@2x.png */,
+			);
+			name = Graphics;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,6 +314,13 @@
 				70291D6E148B24D00025BB60 /* MasterViewController_iPad.xib in Resources */,
 				70291D71148B24D00025BB60 /* DetailViewController_iPhone.xib in Resources */,
 				70291D74148B24D00025BB60 /* DetailViewController_iPad.xib in Resources */,
+				70291D97148B28B00025BB60 /* icon.png in Resources */,
+				70F0698D148C33C400EBBA22 /* menu.plist in Resources */,
+				70C29B45150C53C200B06101 /* HomeViewController.xib in Resources */,
+				70C29B46150C53C200B06101 /* InfoViewController.xib in Resources */,
+				70C29B4B150C541900B06101 /* home_background.png in Resources */,
+				70C29B4C150C541900B06101 /* home_background@2x.png in Resources */,
+				70DBA123150C5985003E6DB8 /* OrderViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,9 +356,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				70291D5E148B24D00025BB60 /* main.m in Sources */,
-				70291D62148B24D00025BB60 /* AppDelegate.m in Sources */,
-				70291D65148B24D00025BB60 /* MasterViewController.m in Sources */,
-				70291D68148B24D00025BB60 /* DetailViewController.m in Sources */,
+				70C29B3D150C53B300B06101 /* AppDelegate.m in Sources */,
+				70C29B3E150C53B300B06101 /* DetailViewController.m in Sources */,
+				70C29B3F150C53B300B06101 /* HomeViewController.m in Sources */,
+				70C29B40150C53B300B06101 /* InfoViewController.m in Sources */,
+				70C29B41150C53B300B06101 /* MasterViewController.m in Sources */,
+				70C29B42150C53B300B06101 /* MenuSection.m in Sources */,
+				70DBA120150C57BC003E6DB8 /* OrderViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -474,6 +558,7 @@
 				70291D8E148B24D00025BB60 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		70291D8F148B24D00025BB60 /* Build configuration list for PBXNativeTarget "MasterPizzaTests" */ = {
 			isa = XCConfigurationList;
@@ -482,6 +567,7 @@
 				70291D91148B24D00025BB60 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

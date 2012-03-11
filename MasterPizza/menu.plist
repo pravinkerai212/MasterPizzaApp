@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Pizza</key>
+	<dict>
+		<key>description</key>
+		<string>Made to order on regular or thin crust made daily and served with homemade pizza sauce and 100% real cheese</string>
+		<key>Toppings</key>
+		<array>
+			<string>Pepperoni</string>
+			<string>Fresh Italian Sausage</string>
+			<string>Mushrooms</string>
+			<string>Onions</string>
+			<string>Green Peppers</string>
+			<string>Black Olives</string>
+			<string>Ham</string>
+			<string>Real Bacon</string>
+			<string>Homemade Meatballs</string>
+			<string>Broccoli</string>
+			<string>Banana Pepper Rings</string>
+			<string>Anchovies</string>
+			<string>Cheddar Cheese</string>
+			<string>Chopped Tomato</string>
+			<string>Jalapeno Peppers</string>
+			<string>Roasted Chicken</string>
+			<string>Sauteed Steak</string>
+			<string>Shrimp or Crab Meat</string>
+			<string>Pineapple</string>
+			<string>Red Onion</string>
+			<string>Peppercinis</string>
+		</array>
+		<key>Master Pizza</key>
+		<dict>
+			<key>description</key>
+			<string>Ham, salami, pepperoni, fried peppers, and Provolone cheese served on our traditional crust with a creamy Italian sauce</string>
+			<key>small</key>
+			<string>10.95</string>
+			<key>large</key>
+			<string>16.25</string>
+		</dict>
+		<key>White Pizza</key>
+		<dict>
+			<key>description</key>
+			<string>Blend of cheeses, seasonings, and olive oil</string>
+			<key>small</key>
+			<string>6.85</string>
+			<key>large</key>
+			<string>10.40</string>
+		</dict>
+		<key>Deluxe Pizza</key>
+		<dict>
+			<key>description</key>
+			<string>Pepperoni, sausage, mushrooms, onions, green pepper, black olive, &amp; anchovies</string>
+			<key>small</key>
+			<string>11.75</string>
+			<key>large</key>
+			<string>17.00</string>
+		</dict>
+		<key>Hearty Meat</key>
+		<dict>
+			<key>description</key>
+			<string>Pepperoni, sausage, ham, bacon, &amp; meatballs</string>
+			<key>small</key>
+			<string>11.95</string>
+			<key>large</key>
+			<string>17.00</string>
+		</dict>
+		<key>Veggie Supreme</key>
+		<dict>
+			<key>description</key>
+			<string>Cheddar &amp; Provolone cheese, onion, green pepper, mushroom, black olive, &amp; broccoli</string>
+			<key>small</key>
+			<string>11.95</string>
+			<key>large</key>
+			<string>17.00</string>
+		</dict>
+		<key>Broccoli &amp; Cheddar</key>
+		<dict>
+			<key>description</key>
+			<string>A special ranch-based sause with broccoli and Cheddar cheese</string>
+			<key>small</key>
+			<string>8.95</string>
+			<key>large</key>
+			<string>13.75</string>
+		</dict>
+		<key>Philly Steak &amp; Cheese Pizza</key>
+		<dict>
+			<key>description</key>
+			<string>Steak, onion, mushroom, green pepper, &amp; Provolone cheese served on a garlic butter crust</string>
+			<key>small</key>
+			<string>10.95</string>
+			<key>large</key>
+			<string>16.00</string>
+		</dict>
+		<key>Mashed Potato Pizza</key>
+		<dict>
+			<key>description</key>
+			<string>Garlic buttered crust topped with mashed potatoes, real bacon, and Cheddar cheese. Onions or broccoli make great additional toppings! Sour cream served on the side.</string>
+			<key>small</key>
+			<string>10.95</string>
+			<key>large</key>
+			<string>16.00</string>
+		</dict>
+		<key>Mexican Pizza</key>
+		<dict>
+			<key>description</key>
+			<string>Taco sauce, seasoned ground beef, Cheddar cheese, onion, tomato, lettuce, &amp; black olive (salsa, sour cream, jalapenos available)</string>
+			<key>small</key>
+			<string>10.95</string>
+			<key>large</key>
+			<string>16.00</string>
+		</dict>
+		<key>Seafood Pizza</key>
+		<dict>
+			<key>description</key>
+			<string>Ranch-blended sauce with shrimp, crab meat, Provolone &amp; Cheddar cheese</string>
+			<key>small</key>
+			<string>10.95</string>
+			<key>large</key>
+			<string>16.00</string>
+		</dict>
+		<key>BLT Pizza</key>
+		<dict>
+			<key>description</key>
+			<string>Bacon, ham, Provolone cheese served with lettuce, tomato, and mayo</string>
+			<key>small</key>
+			<string>10.95</string>
+			<key>large</key>
+			<string>16.00</string>
+		</dict>
+		<key>BBQ Chicken Pizza</key>
+		<dict>
+			<key>description</key>
+			<string>BBQ sauce-based pizza with chicken strips, bacon, onion, Cheddar &amp; Provolone cheese</string>
+			<key>small</key>
+			<string>10.95</string>
+			<key>large</key>
+			<string>16.00</string>
+		</dict>
+		<key>Buffalo Chicken Pizza</key>
+		<dict>
+			<key>description</key>
+			<string>Choose Hot, Medium, or Mild wing sauce for your base. Served with chicken strips, onion, Cheddar &amp; Provolone cheese</string>
+			<key>small</key>
+			<string>10.95</string>
+			<key>large</key>
+			<string>16.00</string>
+		</dict>
+	</dict>
+	<key>Hot Subs &amp; Sandwiches</key>
+	<dict>
+		<key>Italian Master Sub</key>
+		<dict>
+			<key>description</key>
+			<string>Ham, salami, pepperoni, fried peppers, Provolone cheese, and creamy Italian dressing</string>
+			<key>small</key>
+			<string>5.50</string>
+			<key>large</key>
+			<string>8.00</string>
+		</dict>
+		<key>Spicy Italian Master Sub</key>
+		<dict>
+			<key>description</key>
+			<string>Ham, salami, pepperoni, banana pepper rings, Provolone cheese, vinegar &amp; oil, and salt &amp; pepper</string>
+			<key>small</key>
+			<string>5.50</string>
+			<key>large</key>
+			<string>8.00</string>
+		</dict>
+	</dict>
+	<key>Pasta &amp; Ribs a la Carte</key>
+	<dict/>
+	<key>Beverages</key>
+	<dict/>
+	<key>Appetizers</key>
+	<dict/>
+	<key>Salads</key>
+	<dict/>
+	<key>Specials</key>
+	<dict/>
+</dict>
+</plist>
